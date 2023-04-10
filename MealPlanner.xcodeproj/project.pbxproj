@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA19970D29D60CCF00450E42 /* Array_Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19970C29D60CCF00450E42 /* Array_Safe.swift */; };
+		BA21DB8229DF7C5400F550C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA21DB8129DF7C5400F550C0 /* GoogleService-Info.plist */; };
+		BAD1290529D370AA00AC24E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD1290429D370AA00AC24E1 /* AppDelegate.swift */; };
+		BAD1290729D370AA00AC24E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD1290629D370AA00AC24E1 /* SceneDelegate.swift */; };
+		BAD1290C29D370AA00AC24E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD1290A29D370AA00AC24E1 /* Main.storyboard */; };
+		BAD1290E29D370AE00AC24E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD1290D29D370AE00AC24E1 /* Assets.xcassets */; };
+		BAD1291129D370AE00AC24E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD1290F29D370AE00AC24E1 /* LaunchScreen.storyboard */; };
+		BAD1291929D370D700AC24E1 /* MealPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD1291829D370D700AC24E1 /* MealPlanner.swift */; };
+		BAD1291B29D3710700AC24E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD1291A29D3710700AC24E1 /* ViewController.swift */; };
+		BADBD80029D4931C00BD0D4F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BADBD7FF29D4931C00BD0D4F /* background.jpg */; };
+		DB46CDB8817D8E47FF757C2D /* Pods_MealPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC49179747C52C00B6B2A58 /* Pods_MealPlanner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAB51F3829DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2B63D462DB7F827C4B11FD51E4F8E2D;
+			remoteInfo = FirebaseCore;
+		};
+		BAB51F3A29DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 148D0F9E8C7373FEAF40D800FC5F1BAA;
+			remoteInfo = FirebaseCoreInternal;
+		};
+		BAB51F3C29DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51671C73F008B5C0C3751B3855999213;
+			remoteInfo = FirebaseDatabase;
+		};
+		BAB51F3E29DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13C8C8B254851998F9289F71229B28A2;
+			remoteInfo = FirebaseInstallations;
+		};
+		BAB51F4029DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		BAB51F4229DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A9F46A999C47653013D3AD854352507;
+			remoteInfo = "leveldb-library";
+		};
+		BAB51F4429DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		BAB51F4629DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70076D5260A63CCD761C7F43B2F20EF2;
+			remoteInfo = "Pods-MealPlanner";
+		};
+		BAB51F4829DFA55B00BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3347A1AB6546F0A3977529B8F199DC41;
+			remoteInfo = PromisesObjC;
+		};
+		BAB51F5929DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2B63D462DB7F827C4B11FD51E4F8E2D;
+			remoteInfo = FirebaseCore;
+		};
+		BAB51F5B29DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 148D0F9E8C7373FEAF40D800FC5F1BAA;
+			remoteInfo = FirebaseCoreInternal;
+		};
+		BAB51F5D29DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51671C73F008B5C0C3751B3855999213;
+			remoteInfo = FirebaseDatabase;
+		};
+		BAB51F5F29DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13C8C8B254851998F9289F71229B28A2;
+			remoteInfo = FirebaseInstallations;
+		};
+		BAB51F6129DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		BAB51F6329DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A9F46A999C47653013D3AD854352507;
+			remoteInfo = "leveldb-library";
+		};
+		BAB51F6529DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		BAB51F6729DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70076D5260A63CCD761C7F43B2F20EF2;
+			remoteInfo = "Pods-MealPlanner";
+		};
+		BAB51F6929DFA56200BF3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3347A1AB6546F0A3977529B8F199DC41;
+			remoteInfo = PromisesObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EC49179747C52C00B6B2A58 /* Pods_MealPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D9A334456AE1EF2C321A4 /* Pods-MealPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealPlanner.debug.xcconfig"; path = "Target Support Files/Pods-MealPlanner/Pods-MealPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		84BAE091D30B64C55FC65F19 /* Pods-MealPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealPlanner.release.xcconfig"; path = "Target Support Files/Pods-MealPlanner/Pods-MealPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		BA19970C29D60CCF00450E42 /* Array_Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_Safe.swift; sourceTree = "<group>"; };
+		BA21DB8129DF7C5400F550C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		BAD1290129D370AA00AC24E1 /* MealPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD1290429D370AA00AC24E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAD1290629D370AA00AC24E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAD1290B29D370AA00AC24E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD1290D29D370AE00AC24E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAD1291029D370AE00AC24E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAD1291229D370AE00AC24E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD1291829D370D700AC24E1 /* MealPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanner.swift; sourceTree = "<group>"; };
+		BAD1291A29D3710700AC24E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BADBD7FF29D4931C00BD0D4F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD128FE29D370AA00AC24E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB46CDB8817D8E47FF757C2D /* Pods_MealPlanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0B83264B816373E7D99400 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731D9A334456AE1EF2C321A4 /* Pods-MealPlanner.debug.xcconfig */,
+				84BAE091D30B64C55FC65F19 /* Pods-MealPlanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAB51F2A29DFA55B00BF3E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB51F3929DFA55B00BF3E0A /* FirebaseCore */,
+				BAB51F3B29DFA55B00BF3E0A /* FirebaseCoreInternal */,
+				BAB51F3D29DFA55B00BF3E0A /* FirebaseDatabase */,
+				BAB51F3F29DFA55B00BF3E0A /* FirebaseInstallations */,
+				BAB51F4129DFA55B00BF3E0A /* GoogleUtilities */,
+				BAB51F4329DFA55B00BF3E0A /* leveldb-library */,
+				BAB51F4529DFA55B00BF3E0A /* nanopb */,
+				BAB51F4729DFA55B00BF3E0A /* Pods-MealPlanner */,
+				BAB51F4929DFA55B00BF3E0A /* PromisesObjC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB51F4B29DFA56200BF3E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB51F5A29DFA56200BF3E0A /* FirebaseCore */,
+				BAB51F5C29DFA56200BF3E0A /* FirebaseCoreInternal */,
+				BAB51F5E29DFA56200BF3E0A /* FirebaseDatabase */,
+				BAB51F6029DFA56200BF3E0A /* FirebaseInstallations */,
+				BAB51F6229DFA56200BF3E0A /* GoogleUtilities */,
+				BAB51F6429DFA56200BF3E0A /* leveldb-library */,
+				BAB51F6629DFA56200BF3E0A /* nanopb */,
+				BAB51F6829DFA56200BF3E0A /* Pods-MealPlanner */,
+				BAB51F6A29DFA56200BF3E0A /* PromisesObjC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD128F829D370AA00AC24E1 = {
+			isa = PBXGroup;
+			children = (
+				BAD1290329D370AA00AC24E1 /* MealPlanner */,
+				BAD1290229D370AA00AC24E1 /* Products */,
+				0E0B83264B816373E7D99400 /* Pods */,
+				EBC5C67A77B710C701D4612A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD1290229D370AA00AC24E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD1290129D370AA00AC24E1 /* MealPlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD1290329D370AA00AC24E1 /* MealPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				BAD1290429D370AA00AC24E1 /* AppDelegate.swift */,
+				BAD1290629D370AA00AC24E1 /* SceneDelegate.swift */,
+				BAD1290A29D370AA00AC24E1 /* Main.storyboard */,
+				BAD1290D29D370AE00AC24E1 /* Assets.xcassets */,
+				BAD1290F29D370AE00AC24E1 /* LaunchScreen.storyboard */,
+				BAD1291229D370AE00AC24E1 /* Info.plist */,
+				BAD1291829D370D700AC24E1 /* MealPlanner.swift */,
+				BAD1291A29D3710700AC24E1 /* ViewController.swift */,
+				BA19970C29D60CCF00450E42 /* Array_Safe.swift */,
+				BADBD7FF29D4931C00BD0D4F /* background.jpg */,
+				BA21DB8129DF7C5400F550C0 /* GoogleService-Info.plist */,
+			);
+			path = MealPlanner;
+			sourceTree = "<group>";
+		};
+		EBC5C67A77B710C701D4612A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */,
+				BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */,
+				3EC49179747C52C00B6B2A58 /* Pods_MealPlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD1290029D370AA00AC24E1 /* MealPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD1291529D370AE00AC24E1 /* Build configuration list for PBXNativeTarget "MealPlanner" */;
+			buildPhases = (
+				F27550F67CFE05B9872D7B5B /* [CP] Check Pods Manifest.lock */,
+				BAD128FD29D370AA00AC24E1 /* Sources */,
+				BAD128FE29D370AA00AC24E1 /* Frameworks */,
+				BAD128FF29D370AA00AC24E1 /* Resources */,
+				513D8A22DA77673628DB6B55 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealPlanner;
+			productName = MealPlanner;
+			productReference = BAD1290129D370AA00AC24E1 /* MealPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD128F929D370AA00AC24E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BAD1290029D370AA00AC24E1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BAD128FC29D370AA00AC24E1 /* Build configuration list for PBXProject "MealPlanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD128F829D370AA00AC24E1;
+			productRefGroup = BAD1290229D370AA00AC24E1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BAB51F4B29DFA56200BF3E0A /* Products */;
+					ProjectRef = BAB51F4A29DFA56200BF3E0A /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = BAB51F2A29DFA55B00BF3E0A /* Products */;
+					ProjectRef = BAB51F2929DFA55B00BF3E0A /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BAD1290029D370AA00AC24E1 /* MealPlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BAB51F3929DFA55B00BF3E0A /* FirebaseCore */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseCore;
+			path = FirebaseCore.framework;
+			remoteRef = BAB51F3829DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F3B29DFA55B00BF3E0A /* FirebaseCoreInternal */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseCoreInternal;
+			path = FirebaseCoreInternal.framework;
+			remoteRef = BAB51F3A29DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F3D29DFA55B00BF3E0A /* FirebaseDatabase */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseDatabase;
+			path = FirebaseDatabase.framework;
+			remoteRef = BAB51F3C29DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F3F29DFA55B00BF3E0A /* FirebaseInstallations */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseInstallations;
+			path = FirebaseInstallations.framework;
+			remoteRef = BAB51F3E29DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F4129DFA55B00BF3E0A /* GoogleUtilities */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = GoogleUtilities;
+			path = GoogleUtilities.framework;
+			remoteRef = BAB51F4029DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F4329DFA55B00BF3E0A /* leveldb-library */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "leveldb-library";
+			path = leveldb.framework;
+			remoteRef = BAB51F4229DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F4529DFA55B00BF3E0A /* nanopb */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = nanopb;
+			path = nanopb.framework;
+			remoteRef = BAB51F4429DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F4729DFA55B00BF3E0A /* Pods-MealPlanner */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-MealPlanner";
+			path = Pods_MealPlanner.framework;
+			remoteRef = BAB51F4629DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F4929DFA55B00BF3E0A /* PromisesObjC */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = PromisesObjC;
+			path = FBLPromises.framework;
+			remoteRef = BAB51F4829DFA55B00BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F5A29DFA56200BF3E0A /* FirebaseCore */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseCore;
+			path = FirebaseCore.framework;
+			remoteRef = BAB51F5929DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F5C29DFA56200BF3E0A /* FirebaseCoreInternal */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseCoreInternal;
+			path = FirebaseCoreInternal.framework;
+			remoteRef = BAB51F5B29DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F5E29DFA56200BF3E0A /* FirebaseDatabase */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseDatabase;
+			path = FirebaseDatabase.framework;
+			remoteRef = BAB51F5D29DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F6029DFA56200BF3E0A /* FirebaseInstallations */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = FirebaseInstallations;
+			path = FirebaseInstallations.framework;
+			remoteRef = BAB51F5F29DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F6229DFA56200BF3E0A /* GoogleUtilities */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = GoogleUtilities;
+			path = GoogleUtilities.framework;
+			remoteRef = BAB51F6129DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F6429DFA56200BF3E0A /* leveldb-library */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "leveldb-library";
+			path = leveldb.framework;
+			remoteRef = BAB51F6329DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F6629DFA56200BF3E0A /* nanopb */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = nanopb;
+			path = nanopb.framework;
+			remoteRef = BAB51F6529DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F6829DFA56200BF3E0A /* Pods-MealPlanner */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-MealPlanner";
+			path = Pods_MealPlanner.framework;
+			remoteRef = BAB51F6729DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAB51F6A29DFA56200BF3E0A /* PromisesObjC */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = PromisesObjC;
+			path = FBLPromises.framework;
+			remoteRef = BAB51F6929DFA56200BF3E0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD128FF29D370AA00AC24E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD1291129D370AE00AC24E1 /* LaunchScreen.storyboard in Resources */,
+				BADBD80029D4931C00BD0D4F /* background.jpg in Resources */,
+				BA21DB8229DF7C5400F550C0 /* GoogleService-Info.plist in Resources */,
+				BAD1290E29D370AE00AC24E1 /* Assets.xcassets in Resources */,
+				BAD1290C29D370AA00AC24E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		513D8A22DA77673628DB6B55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealPlanner/Pods-MealPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealPlanner/Pods-MealPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MealPlanner/Pods-MealPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27550F67CFE05B9872D7B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD128FD29D370AA00AC24E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD1291929D370D700AC24E1 /* MealPlanner.swift in Sources */,
+				BAD1290529D370AA00AC24E1 /* AppDelegate.swift in Sources */,
+				BA19970D29D60CCF00450E42 /* Array_Safe.swift in Sources */,
+				BAD1291B29D3710700AC24E1 /* ViewController.swift in Sources */,
+				BAD1290729D370AA00AC24E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAD1290A29D370AA00AC24E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD1290B29D370AA00AC24E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAD1290F29D370AE00AC24E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD1291029D370AE00AC24E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD1291329D370AE00AC24E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAD1291429D370AE00AC24E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD1291629D370AE00AC24E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731D9A334456AE1EF2C321A4 /* Pods-MealPlanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealPlanner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.akshaysub.MealPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAD1291729D370AE00AC24E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84BAE091D30B64C55FC65F19 /* Pods-MealPlanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealPlanner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.akshaysub.MealPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD128FC29D370AA00AC24E1 /* Build configuration list for PBXProject "MealPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD1291329D370AE00AC24E1 /* Debug */,
+				BAD1291429D370AE00AC24E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD1291529D370AE00AC24E1 /* Build configuration list for PBXNativeTarget "MealPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD1291629D370AE00AC24E1 /* Debug */,
+				BAD1291729D370AE00AC24E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD128F929D370AA00AC24E1 /* Project object */;
+}
